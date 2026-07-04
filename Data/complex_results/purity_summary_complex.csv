@@ -1,0 +1,8 @@
+model,tau,total_cliques,analyzed_cliques,avg_lexical_domain_purity,median_lexical_domain_purity,min_lexical_domain_purity,max_lexical_domain_purity,perfect_lexical_domain_count,perfect_lexical_domain_ratio,avg_purity,perfect_purity_ratio
+complex,0.45,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+complex,0.5,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+complex,0.55,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+complex,0.6,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+complex,0.65,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+complex,0.7,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+complex,0.75,0,0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0

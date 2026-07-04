@@ -1,0 +1,8 @@
+model,tau,topk,n_nodes,n_edges_bin,n_components,largest_component,n_cliques_extracted,n_louvain_communities,n_leiden_communities,rand_components
+nodepiece,0.75,50,14505,392593,355,10347,827,389,390,138
+nodepiece,0.7,50,14505,432924,176,12270,337,213,212,61
+nodepiece,0.65,50,14505,459020,75,13787,145,121,119,22
+nodepiece,0.6,50,14505,470338,42,14182,65,87,89,13
+nodepiece,0.55,50,14505,476193,31,14245,63,76,70,8
+nodepiece,0.5,50,14505,480103,24,14334,25,68,63,7
+nodepiece,0.45,50,14505,483512,20,14350,18,64,60,7

@@ -1,0 +1,22 @@
+{
+  "total_examples": 15,
+  "perfect_purity": 15,
+  "avg_purity": 1.0,
+  "avg_size": 10.333333333333334,
+  "size_range": [
+    3,
+    22
+  ],
+  "by_model": {
+    "TRANSE": {
+      "count": 3,
+      "avg_purity": 1.0,
+      "avg_size": 3.0
+    },
+    "ROTATE": {
+      "count": 12,
+      "avg_purity": 1.0,
+      "avg_size": 12.166666666666666
+    }
+  }
+}

@@ -1,0 +1,14 @@
+pykeen==1.11.1
+torch>=2.0
+numpy
+scipy
+pandas
+scikit-learn
+networkx
+python-louvain
+python-igraph
+leidenalg
+matplotlib
+seaborn
+nltk
+scikit-fuzzy

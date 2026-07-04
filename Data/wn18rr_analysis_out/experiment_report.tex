@@ -1,0 +1,66 @@
+
+\documentclass[conference]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\begin{document}
+
+\section{Experimental Analysis}
+
+This section presents the experimental analysis for tolerance-relation-based clustering on the WN18RR knowledge graph.
+
+\subsection{Clique Size Distribution}
+
+Fig.~\ref{fig:clique} shows the maximal clique size distribution across different threshold~$\tau$.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{figures/clique_size_distribution.pdf}
+\caption{Clique Size Distribution Across $\tau$.}
+\label{fig:clique}
+\end{figure}
+
+\subsection{Community Size Distributions}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{figures/louvain_community_size_distribution.pdf}
+\caption{Louvain Community Size Distribution}
+\label{fig:louvain}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{figures/leiden_community_size_distribution.pdf}
+\caption{Leiden Community Size Distribution}
+\label{fig:leiden}
+\end{figure}
+
+\subsection{Robustness Analysis}
+
+The robustness analysis over various $\tau$ is shown in Fig.~\ref{fig:robustness}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{figures/n_components_vs_tau.pdf}
+\caption{Robustness Metrics vs $\tau$.}
+\label{fig:robustness}
+\end{figure}
+
+\subsection{Discussion}
+
+This section summarizes the main experimental results using tolerance-relation-based clustering on WN18RR.
+
+For τ=0.75: components=2.0, largest component=40557.0, Louvain communities=34.0, Leiden communities=35.0, cliques=1.0.
+For τ=0.7: components=1.0, largest component=40559.0, Louvain communities=21.0, Leiden communities=19.0, cliques=0.0.
+For τ=0.65: components=1.0, largest component=40559.0, Louvain communities=14.0, Leiden communities=14.0, cliques=0.0.
+For τ=0.6: components=1.0, largest component=40559.0, Louvain communities=11.0, Leiden communities=10.0, cliques=0.0.
+For τ=0.55: components=1.0, largest component=40559.0, Louvain communities=6.0, Leiden communities=7.0, cliques=0.0.
+For τ=0.5: components=1.0, largest component=40559.0, Louvain communities=6.0, Leiden communities=7.0, cliques=0.0.
+For τ=0.45: components=1.0, largest component=40559.0, Louvain communities=7.0, Leiden communities=6.0, cliques=0.0.
+
+Overall, decreasing τ increases graph connectivity, resulting in fewer components and larger community structures.
+
+Louvain and Leiden clustering both show stable behavior across τ, while maximal cliques tend to vanish at higher τ levels.
+
+
+\end{document}

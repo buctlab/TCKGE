@@ -1,0 +1,4 @@
+model,tau,topk,n_nodes,n_edges_bin,n_components,largest_component,n_cliques_extracted,n_louvain_communities,n_leiden_communities,rand_components
+transe,0.55,50,40559,1800,38765,8,1790,38765,38765,38759
+transe,0.5,50,40559,5643,34977,30,5533,34977,34977,34916
+transe,0.45,50,40559,15003,26050,357,13554,26053,26054,25559

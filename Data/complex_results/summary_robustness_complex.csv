@@ -1,0 +1,8 @@
+model,tau,topk,n_nodes,n_edges_bin,n_components,largest_component,n_cliques_extracted,n_louvain_communities,n_leiden_communities,rand_components
+complex,0.75,50,40559,0,40559,1,0,40559,40559,40559
+complex,0.7,50,40559,0,40559,1,0,40559,40559,40559
+complex,0.65,50,40559,0,40559,1,0,40559,40559,40559
+complex,0.6,50,40559,0,40559,1,0,40559,40559,40559
+complex,0.55,50,40559,0,40559,1,0,40559,40559,40559
+complex,0.5,50,40559,0,40559,1,0,40559,40559,40559
+complex,0.45,50,40559,0,40559,1,0,40559,40559,40559

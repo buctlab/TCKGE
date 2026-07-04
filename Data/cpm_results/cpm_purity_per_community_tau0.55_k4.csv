@@ -1,0 +1,7 @@
+community_id,size,labelled_size,purity,n_distinct_synsets
+0,4,2,0.5,2
+3,4,2,1.0,1
+6,4,2,0.5,2
+9,4,2,0.5,2
+10,4,2,0.5,2
+11,4,4,1.0,1

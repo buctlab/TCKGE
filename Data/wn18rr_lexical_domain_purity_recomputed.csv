@@ -1,0 +1,15 @@
+method,model,tau,setting,source,n_total,n_eval,avg_lexical_domain_purity,median_lexical_domain_purity,min_lexical_domain_purity,max_lexical_domain_purity,perfect_lexical_domain_ratio,n_perfect
+TCKGE,RotatE,0.45,maximal_cliques,Data\rotate_results\cliques_rotate_tau_0.450.json,29393,27556,0.9903344876925947,1.0,0.2,1.0,0.9797503266076354,26998
+TCKGE,RotatE,0.5,maximal_cliques,Data\rotate_results\cliques_rotate_tau_0.500.json,13017,10372,0.942196940480782,1.0,0.25,1.0,0.8767836482838411,9094
+TCKGE,RotatE,0.55,maximal_cliques,Data\rotate_results\cliques_rotate_tau_0.550.json,7868,6399,0.9492186279106107,1.0,0.25,1.0,0.8971714330364119,5741
+TCKGE,RotatE,0.6,maximal_cliques,Data\rotate_results\cliques_rotate_tau_0.600.json,4860,4110,0.9578903564669987,1.0,0.2222222222222222,1.0,0.916058394160584,3765
+TCKGE,RotatE,0.65,maximal_cliques,Data\rotate_results\cliques_rotate_tau_0.650.json,3230,2785,0.9694554159186116,1.0,0.25,1.0,0.940035906642729,2618
+TCKGE,RotatE,0.7,maximal_cliques,Data\rotate_results\cliques_rotate_tau_0.700.json,1351,1125,0.9657777777777777,1.0,0.3333333333333333,1.0,0.9315555555555556,1048
+TCKGE,RotatE,0.75,maximal_cliques,Data\rotate_results\cliques_rotate_tau_0.750.json,403,314,0.9708067940552019,1.0,0.5,1.0,0.9394904458598726,295
+TCKGE,TransE,0.45,maximal_cliques,Data\cliques_tau_0.450.json,2914,2162,0.9370181930311441,1.0,0.3333333333333333,1.0,0.8728029602220166,1887
+TCKGE,TransE,0.5,maximal_cliques,Data\cliques_tau_0.500.json,10242,6422,0.9459799647046608,1.0,0.25,1.0,0.8913111180317658,5724
+TCKGE,TransE,0.55,maximal_cliques,Data\cliques_tau_0.550.json,12365,3436,0.9037640667442762,1.0,0.3333333333333333,1.0,0.8076251455180442,2775
+TCKGE,TransE,0.6,maximal_cliques,Data\cliques_tau_0.600.json,6533,937,0.8249733191035219,1.0,0.5,1.0,0.6499466382070438,609
+TCKGE,TransE,0.65,maximal_cliques,Data\cliques_tau_0.650.json,2663,223,0.7174887892376681,0.5,0.5,1.0,0.4349775784753363,97
+TCKGE,TransE,0.7,maximal_cliques,Data\cliques_tau_0.700.json,839,51,0.5980392156862745,0.5,0.5,1.0,0.19607843137254902,10
+TCKGE,TransE,0.75,maximal_cliques,Data\cliques_tau_0.750.json,177,14,0.6071428571428571,0.5,0.5,1.0,0.21428571428571427,3

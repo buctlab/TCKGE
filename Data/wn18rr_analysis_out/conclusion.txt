@@ -1,0 +1,13 @@
+This section summarizes the main experimental results using tolerance-relation-based clustering on WN18RR.
+
+For τ=0.75: components=2.0, largest component=40557.0, Louvain communities=34.0, Leiden communities=35.0, cliques=1.0.
+For τ=0.7: components=1.0, largest component=40559.0, Louvain communities=21.0, Leiden communities=19.0, cliques=0.0.
+For τ=0.65: components=1.0, largest component=40559.0, Louvain communities=14.0, Leiden communities=14.0, cliques=0.0.
+For τ=0.6: components=1.0, largest component=40559.0, Louvain communities=11.0, Leiden communities=10.0, cliques=0.0.
+For τ=0.55: components=1.0, largest component=40559.0, Louvain communities=6.0, Leiden communities=7.0, cliques=0.0.
+For τ=0.5: components=1.0, largest component=40559.0, Louvain communities=6.0, Leiden communities=7.0, cliques=0.0.
+For τ=0.45: components=1.0, largest component=40559.0, Louvain communities=7.0, Leiden communities=6.0, cliques=0.0.
+
+Overall, decreasing τ increases graph connectivity, resulting in fewer components and larger community structures.
+
+Louvain and Leiden clustering both show stable behavior across τ, while maximal cliques tend to vanish at higher τ levels.
